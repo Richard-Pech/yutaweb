@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.datos{
+    margin: 120px 0px 0px;
+    font-size: 25px;
+    color: white;
+    width: 1000px;
+    height: 200px;
+    background: cadetblue;
+    border-radius: 10px;
+}
+
+.datos h1{
+    font-size: 50px;
+    padding: 10px 0px 0px;
+}
+
+body{
+    background-image: url(fondo.jpeg);
+    background-image: url(fondo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#nab2{
+    height: 100px;
+    width: 1000px;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 50px;
+}
+
+.menu2 {
+    list-style: none;
+}
+
+.menu2 li{
+    display:inline-block;
+    float: left;
+    display:flex;
+    margin: 20px 27px;
+    }
+
+.menu2 a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: times new roman;
+}
+
+.menu2 a:hover{
+    background-color: aliceblue;
+    color: black;
+}

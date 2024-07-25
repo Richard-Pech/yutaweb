@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+    color: #ff7600;
+    text-align: center;
+    padding: 20px 0 15px 0;
+    font-size: 30px;
+}
+
+.container {
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+
+.superior {
+    background: #1551a1;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    padding: 35px;
+}
+
+/*estilos para el menu de opciones*/
+.menu {
+    float: left;
+    padding: 50px;
+}
+
+.opciones li {
+    float: left;
+    list-style: none;
+}
+
+.opciones li a {
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover {
+    background: #0d356a;
+}
+
+/*estilos para el cuerpo*/
+.cuerpo {
+    overflow: hidden;
+}
+
+.caja {
+    float: left;
+    width: 380px;
+    margin: 9px;
+    border: 1px solid;
+}
+
+.subtitulo {
+    background: #0d356a;
+    color: white;
+}
+
+.servicios {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.efecto:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.contenido {
+    padding: 10px;
+    text-align: justify;
+}
+
+.button {
+    background: #144a91;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #0c2c57;
+    cursor: pointer;
+}
+
+.pie {
+    background: #062348;
+    overflow: hidden;
+}
+
+.izquierda {
+    float: left;
+    width: 500px;
+    padding: 20px;
+}
+
+.derecha {
+    float: left;
+    width: 500px;
+    padding: 20px;
+}
+
+.abajo {
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.siguenos {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 0;
+}
